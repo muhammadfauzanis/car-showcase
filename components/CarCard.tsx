@@ -6,7 +6,7 @@ import CustomButton from './CustomButton';
 import { useState } from 'react';
 import CarDetails from './CarDetails';
 
-interface CarProps {
+export interface CarProps {
   city_mpg: number;
   class: string;
   combination_mpg: number;
